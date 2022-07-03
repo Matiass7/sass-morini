@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    &__imgs {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+        img {
+            height: 400px;
+        }
+    }
+    &__wts {
+        position: fixed;
+        text-align: center;
+        right: 30px;
+        bottom: 30px;
+        img {
+            height: 50px;
+        }
+    }
+}

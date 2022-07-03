@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 300px;
+    background-color: $colorBase;
+    &__logo {
+        margin-right: 50px;
+        height: 100px;
+        img {
+            height: 100%;
+        }
+    }
+    &__search {
+        margin-right: 100px;
+        input {
+            height: 50px;
+            width: 350px;
+        }
+    }
+    &__usuario {
+        a {
+            padding-left: 50px;
+        }
+        img {
+            height: 45px;
+        }
+    }
+    &__cuadrado {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+        background-color: $colorSecundario;
+        li {
+            display: inline;
+            padding: 30px;
+            transition: 1s;
+            font-size: $fuentePrincipal;
+            &:hover {
+                font-size: $fuenteSecundaria;
+            }
+            a {
+                color: $colorPrincipal;
+                text-decoration: none;
+            }
+        }
+        
+    } 
+}

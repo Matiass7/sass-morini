@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $colorBase;
+    height: 200px;
+    &__atencion {
+        h2 {
+            color: $colorPrincipal;
+            padding-bottom: 10px;
+        }
+        li {
+            color: $colorSecundario;
+        }
+    }
+    &__sub {
+        h2 {
+            color: $colorPrincipal;
+            padding-bottom: 10px;
+        }
+        input {
+            height: 40px;
+            width: 350px;
+        }
+    }
+    &__redes {
+        img {
+            height: 50px;
+            padding-left: 10px;
+        }
+    }
+}
